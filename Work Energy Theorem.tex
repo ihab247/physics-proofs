@@ -1,0 +1,41 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\begin{document}
+
+Proof of Work-Energy Theorem
+
+$$ \Sigma W_{AB} = \int_{A}^{B} \Sigma \vec{F}  \cdot d\vec{s}$$
+
+$$ \Sigma W_{AB} = \int_{A}^{B} (\Sigma \vec{F}_x \hat{i} + \Sigma \vec{F}_y \hat{j} + \Sigma \vec{F}_z \hat{k})  \cdot (d\vec{s}_x \hat{i} + d\vec{s}_y \hat{j} + d\vec{s}_z \hat{k})$$
+
+$$ \Sigma W_{AB} = \int_{A}^{B} \Sigma \vec{F}_x d\vec{s}_x  + \Sigma \vec{F}_y d\vec{s}_y + \Sigma \vec{F}_z d\vec{s}_z$$
+
+$$ \Sigma W_{AB} = \int_{A}^{B} \Sigma \vec{F}_x d\vec{s}_x + \int_{A}^{B} \Sigma \vec{F}_y d\vec{s}_y + \int_{A}^{B} \Sigma \vec{F}_z d\vec{s}_z $$
+
+$$\Sigma \vec{F}_x = m\vec{a}_x $$
+
+$$\vec{a}_x = \dfrac{d\vec{v}_x}{dt} $$
+
+$$d\vec{s}_x = \vec{v}_x dt $$
+
+$$\Sigma \vec{F}_x d\vec{s}_x =  m\vec{a}_x  \vec{v}_x dt $$
+
+$$\Sigma \vec{F}_x d\vec{s}_x = m \dfrac{d\vec{v}_x}{dt}  \vec{v}_x dt $$
+
+$$\Sigma \vec{F}_x d\vec{s}_x = m  \vec{v}_x  d\vec{v}_x $$
+
+
+$$ \Sigma W_{AB} = \int_{A}^{B} m  \vec{v}_x  d\vec{v}_x + \int_{A}^{B} m  \vec{v}_y  d\vec{v}_y + \int_{A}^{B} m  \vec{v}_z  d\vec{v}_z $$
+
+$$ \Sigma W_{AB} = \left .  \frac{1}{2}m\vec{v}_x^2 \right|_{A}^{B} + \left .  \frac{1}{2}m\vec{v}_y^2 \right|_{A}^{B} + \left .  \frac{1}{2}m\vec{v}_z^2 \right|_{A}^{B}$$
+
+$$K_x = \frac{1}{2}m\vec{v}_x^2$$
+
+$$ \Sigma W_{AB} = \Delta K_x + \Delta K_y + \Delta K_z$$
+
+$$ \Sigma W_{AB} = \Delta K$$
+
+\end{document}
